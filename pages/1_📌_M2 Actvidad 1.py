@@ -89,8 +89,6 @@ st.markdown("""
 Se crea un DataFrame usando un array de NumPy y se muestra en la aplicación.
 """)
 
-
-
 st.header("Solución")
 
 
@@ -109,9 +107,11 @@ libros = {
 }
 
 # Convertimos el diccionario en un DataFrame
+
 df_libros = pd.DataFrame(libros)
 
 # Mostramos el DataFrame en la app
+
 st.dataframe(df_libros)
 # ----------------------------------
 # 2. DataFrame desde Lista de Diccionarios
@@ -177,7 +177,7 @@ st.dataframe(df_json)
 # ----------------------------------
 # 8. DataFrame desde URL
 # ----------------------------------
-st.header("Datos desde URL")
+st.header("Datos desde URL (Personas que Viajaron)")
 url = "https://people.sc.fsu.edu/~jburkardt/data/csv/airtravel.csv"
 df_url = pd.read_csv(url)
 st.dataframe(df_url)
