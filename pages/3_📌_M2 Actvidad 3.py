@@ -95,7 +95,11 @@ st.write(df_nuevo)
 #-----------------------------------
 #-----------------------------------
 #-----------------------------------
+<<<<<<< HEAD
 "LINK DEL COLAB CON LOS 50 EJERCICIOS"
+=======
+LINK DEL COLAB CON LOS 50 EJERCICIOS
+>>>>>>> dce2ea3699bfe09d71b97e139c6f421b5230f3fc
 "https://colab.research.google.com/drive/1qGRiJMgOvMzQ5G10lA32hPXuch8n3CxT?usp=sharing"
 #-----------------------------------
 #-----------------------------------
